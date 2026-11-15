@@ -1,0 +1,5 @@
+Model,Setup,CV_Acc,CV_Macro_F1,Test_Acc,Test_Prec,Test_Rec,Test_Macro_F1,Test_ROC_AUC,Train_Time_s
+LogisticRegression,without_pca,0.6988 +/- 0.0046,0.6931 +/- 0.0046,0.706,0.704,0.7211,0.6995,0.8048,0.029
+LogisticRegression,with_pca,0.6979 +/- 0.0039,0.6918 +/- 0.0044,0.7105,0.7062,0.7234,0.7033,0.8046,0.018
+RandomForest,without_pca,0.6913 +/- 0.0103,0.6760 +/- 0.0127,0.7125,0.6937,0.7032,0.6965,0.7735,0.564
+RandomForest,with_pca,0.6871 +/- 0.0090,0.6713 +/- 0.0111,0.689,0.6688,0.6767,0.6711,0.7632,0.589

@@ -1,0 +1,42 @@
+=== LogisticRegression (without_pca) ===
+              precision    recall  f1-score   support
+
+           0     0.8404    0.6669    0.7437      1279
+           1     0.5675    0.7753    0.6553       721
+
+    accuracy                         0.7060      2000
+   macro avg     0.7040    0.7211    0.6995      2000
+weighted avg     0.7420    0.7060    0.7118      2000
+
+
+=== LogisticRegression (with_pca) ===
+              precision    recall  f1-score   support
+
+           0     0.8391    0.6771    0.7495      1279
+           1     0.5733    0.7698    0.6572       721
+
+    accuracy                         0.7105      2000
+   macro avg     0.7062    0.7234    0.7033      2000
+weighted avg     0.7433    0.7105    0.7162      2000
+
+
+=== RandomForest (without_pca) ===
+              precision    recall  f1-score   support
+
+           0     0.7983    0.7365    0.7662      1279
+           1     0.5890    0.6699    0.6269       721
+
+    accuracy                         0.7125      2000
+   macro avg     0.6937    0.7032    0.6965      2000
+weighted avg     0.7229    0.7125    0.7159      2000
+
+
+=== RandomForest (with_pca) ===
+              precision    recall  f1-score   support
+
+           0     0.7767    0.7209    0.7478      1279
+           1     0.5609    0.6325    0.5945       721
+
+    accuracy                         0.6890      2000
+   macro avg     0.6688    0.6767    0.6711      2000
+weighted avg     0.6989    0.6890    0.6925      2000

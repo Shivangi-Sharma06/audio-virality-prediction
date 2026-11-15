@@ -1,0 +1,15 @@
+{
+  "dropped_by_correlation": [],
+  "selected_features": [
+    "danceability",
+    "acousticness",
+    "energy",
+    "genre_Classical",
+    "genre_Jazz",
+    "genre_Latin",
+    "genre_Hip-Hop",
+    "genre_Indie",
+    "genre_Pop",
+    "valence"
+  ]
+}

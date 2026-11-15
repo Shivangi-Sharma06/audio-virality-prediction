@@ -1,0 +1,21 @@
+{
+  "target_name": "viral",
+  "n_classes": 2,
+  "class_counts": {
+    "0": 6395,
+    "1": 3605
+  },
+  "class_percentages": {
+    "0": 63.95,
+    "1": 36.05
+  },
+  "is_balanced": false,
+  "balance_summary": "IMBALANCED (~64% non-viral vs ~36% viral; requires balanced class weights)",
+  "dropped_columns": {
+    "track_id": "Unique identifier with no predictive or generalizable value",
+    "track_name": "Free-text song title without usable acoustic features",
+    "artist": "High-cardinality categorical label causing extreme overfitting",
+    "release_year": "Date/temporal metadata rather than an intrinsic audio feature",
+    "streams": "Post-release outcome metric directly leaking the viral target"
+  }
+}
